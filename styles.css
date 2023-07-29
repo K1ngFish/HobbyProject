@@ -1,7 +1,7 @@
 .header {
-    background-color: #029bc7;
+    background-color: #0191bb;
     color: white;
-    padding: 5px;
+    padding: 2px;
     text-align: center;
 }
 
@@ -20,7 +20,7 @@
     display: table;
     float: left;
     padding: 10px 20px;
-    background-color: #029BC7FF;
+    background-color: #0191bb;
     text-decoration: none;
     color: white;
 }
@@ -37,6 +37,11 @@
     text-decoration: none;
     color: inherit;
     font-family: cursive;
+}
+
+.h2-style{
+    font-family: cursive;
+    text-align: center;
 }
 
 .navigation a:hover {
@@ -61,5 +66,10 @@
 
 .text-container {
     font-family: "PT Serif";
+    text-align: center;
 }
 
+ol {
+    list-style-position: inside;
+    text-align: center;
+}
